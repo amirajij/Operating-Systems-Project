@@ -25,7 +25,7 @@ This project simulates an **Integrated Student Management System (SIGA)** where 
 - `suporte_agente.sh`: Bash script that reads and processes requests.
 - `suporte_desk.sh`: Main controller script that creates the pipe, launches the processes, and cleans up.
 
-#### Improvements Implemented (Optional)
+#### Improvements Implemented
 - Argument validation
 - Dynamic number of students via command-line
 - Custom pipe names
@@ -73,16 +73,6 @@ This project simulates an **Integrated Student Management System (SIGA)** where 
 - **Thread Synchronization (Mutex, RW Locks)**
 - **Linux Environment** (WSL or Ubuntu VM)
 - **GDB** (for debugging)
-
----
-
-## 🖼️ Suggested Screenshots for GitHub
-
-- Terminal output from `support_desk.sh` execution
-- Terminal view of a student being registered
-- CSV file sample exported by `admin.c`
-- Output of `admin.c` menu interaction
-- (Optional) Diagram showing pipe communication between processes
 
 ---
 
